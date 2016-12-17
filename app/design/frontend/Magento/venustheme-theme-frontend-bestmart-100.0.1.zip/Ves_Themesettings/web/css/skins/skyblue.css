@@ -1,0 +1,72 @@
+/*
+Default:
+ background-color: #87ceeb;
+ color: #fff;
+
+Hover:
+  background-color: #333;
+  color: #87ceeb;
+
+Link Hover:
+color: #87ceeb;
+
+Button Hover: #87ceeb;
+
+*/
+.product-reviews-summary .reviews-actions a:hover, 
+.ves-megamenu .dropdown-menu a:hover
+{
+  color: #87ceeb!important;
+}
+.page-header .nav-links li a:hover{color: #87ceeb;}
+
+.columns a:hover, .columns .alink:hover, .breadcrumbs .item strong, 
+.product-info-main .price-box .price-including-tax + .price-excluding-tax .price, 
+.product-options-bottom .price-box .price-including-tax + .price-excluding-tax .price, 
+.product-info-main .price-box .weee + .price-excluding-tax .price, 
+.product-options-bottom .price-box .weee + .price-excluding-tax .price, 
+.product-info-main .price-box .weee .price, 
+.product-options-bottom .price-box .weee .price, .ves-menu .ves-vertical li.level0:hover > a,
+.footer-top .nav-links li a:hover, body .page-wrapper a:hover, 
+body .page-wrapper .alink:hover, .product-info-main .product-info-stock-sku .stock.available, 
+.product-info-main .product-info-stock-sku .stock.unavailable
+{
+  color: #87ceeb;
+}
+
+.scrollup, .block.newsletter .action.subscribe:hover,
+.block-theme.block-v1 .productlist-widget ul.etabs li.active a,
+body .page-wrapper .owl-carousel .owl-dots .owl-dot.active span, 
+body .page-wrapper .owl-carousel .owl-dots .owl-dot:hover span,
+.product-block .product-item-details .actions-primary .add-to-cart, .countdown-timmer,
+.block-warning .nav-links li a:hover, .ves-autosearch .search_box .button-search
+{
+  background-color: #87ceeb;
+}
+
+.vertical-menu{
+  background: #87ceeb;
+}
+
+._keyfocus *:focus, input:focus:not([disabled]), textarea:focus:not([disabled]), select:focus:not([disabled]){
+  box-shadow: 0 0 3px 1px #87ceeb;
+}
+
+.action.primary:hover, .action.primary:active, .action.primary:focus {
+    background: #87ceeb;
+    border-color: #87ceeb;
+    color: #fff;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="url"], input[type="tel"], input[type="search"], input[type="number"], input[type="datetime"], input[type="email"]{
+  border-color: #87ceeb;
+}
+
+/* Custom Fix*/
+.vertical-menu .block .block-title{border-top: 1px solid rgba(0, 0, 0, 0.5);}
+.vertical-menu .block .block-title strong::after{color: rgba(0, 0, 0, 0.5);}
+.sidebar .block{border-top: 3px solid #87ceeb;}
+.block.newsletter{background-color: #87ceeb!important;}
+.block.newsletter input{background-color: #6cb3d0;}
+.social-footer{background-color: #2b2d42!important;}
+.block-theme .productlist-widget{border-top: 3px solid #87ceeb;}

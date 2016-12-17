@@ -1,3 +1,4 @@
+#For performance and security reasons, this file will have no effect, it's just meant for use in development environments
 ############################################
 ## Optional override of deployment mode. We recommend you use the
 ## command bin/magento deploy:mode:set to switch modes instead
@@ -219,3 +220,5 @@ ErrorDocument 403 /errors/404.php
     ## Prevent clickjacking
     Header set X-Frame-Options SAMEORIGIN
 </IfModule>
+
+RewriteBase /magento/pub
